@@ -56,6 +56,3 @@ if found_device:
     print(f"\nFound Device: Name: {found_device['name']} Brand: {found_device['brand']}, Year: {found_device['year']}")
 remove_device("ECG Machine")
 list_devices()
-
-
-
