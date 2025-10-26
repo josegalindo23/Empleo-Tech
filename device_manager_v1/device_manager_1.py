@@ -15,7 +15,7 @@ def add_device(name, brand, year):
 
 # Function to list all devices
 def list_devices():
-    print("\nInventario actual:")
+    print("\nCurrent Inventory:")
     for device in devices:
         print(f"Name: {device['name']} Brand: {device['brand']}, Year: {device['year']}")
 
